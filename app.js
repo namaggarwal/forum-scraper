@@ -32,7 +32,7 @@ page.onResourceRequested = function(requestData, request){
 	else{
 		//only download the page
 		if (requestData.url != url){
-				console.log("Abort");
+			//	console.log("Abort");
 				request.abort();
 		}
 	}
@@ -70,7 +70,7 @@ page.onConsoleMessage = function(msg) {
 
 page.onError = function(msg, trace) {
 	//do nothing
-	console.log("Error occured"+msg);
+	//console.log("Error occured"+msg);
 };
 
 
