@@ -56,9 +56,7 @@ page.open(url, function() {
 
 	
 	parsePage();
-	
-
-	console.log("Naman is here");
+		
 	phantom.exit(); 
 	
   
